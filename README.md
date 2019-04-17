@@ -1,5 +1,5 @@
 # What
-Tool to prepare .SVG for a Lime/OpenFL project for .SVGs exported from Photoshop
+Tool to prepare .SVG for a Lime/OpenFL project from .SVGs exported with Photoshop
 
 # How to
 
