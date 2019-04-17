@@ -1,0 +1,13 @@
+-cp src
+-D analyzer-optimize
+-main Main
+
+--each
+
+# --interp
+
+--next
+
+-neko "build/neko/NormalizeSVG.n"
+-cmd nekotools boot build/neko/NormalizeSVG.n
+
