@@ -23,7 +23,7 @@ class Main {
 				for (path in xmlFile.elementsNamed('path')) {
 					var classAttr = path.get('class');
 					if (classAttr == null || '.$classAttr' != clKey) continue;
-					// path.remove('class');
+
 					path.set(rule, value);
 				}
 			}
@@ -76,7 +76,6 @@ class Main {
 			idx = style.indexOf(CLASS, clBracketIdx);
 		}
 
-		// trace(map);
 		return map;
 	}
 
